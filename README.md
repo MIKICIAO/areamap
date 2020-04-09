@@ -157,6 +157,5 @@ https://furuhashilab.github.io/areamap/kumamoto.html
 
 
 沖縄カラム地図
-
 https://furuhashilab.github.io/areamap/okinawa.html
 
