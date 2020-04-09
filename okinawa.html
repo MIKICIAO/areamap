@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>宮崎カラム地図 - Fukui TabularMaps</title>
+<title>沖縄カラム地図 - Fukui TabularMaps</title>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 <link rel="apple-touch-icon" href="fukui.png"/>
@@ -10,17 +10,18 @@
 <script>'use strict'
 
 const TABULARMAP_SRC = `
-五ヶ瀬町	高千穂町	日之影町	延岡市	都農町
-椎葉村	諸塚村	美郷町	門川町	川南町
-西米良村	西都市	木城町	日向市	高鍋町
-えびの市	小林市	綾町	国富町	新富町
-高原町	都城市	三股町	日南市	宮崎市
-			串間市			`
+伊平屋村	伊是名村	伊江村	本部町	今帰仁村	国頭村
+粟国村	読谷村	恩納村	名護市	大宜味村	東村
+渡名喜村	嘉手納町	宜野湾市	北中城村	うるま市	宜野座村
+久米島町	北谷町	浦添市	中城村	沖縄市	金武町
+座間味村	那覇市	南風原町	西原町	与那原町	北大東村
+渡嘉敷村	豊見城市	糸満市	八重瀬町	南城市	南大東村
+与那国町	竹富町	石垣市	多良間村	宮古島市			`
 
 window.onload = function() {
 	tmap.innerHTML = makeTabularMap(TABULARMAP_SRC)
 
-	tmtitle.textContent = "宮崎県"
+	tmtitle.textContent = "沖縄県"
 
 //	document.getElementById("鯖江市").style.backgroundColor = "#ebb"
 	linkCells(tmap)
@@ -133,7 +134,7 @@ h1 {
 </head>
 <body>
 
-<h1>宮崎カラム地図</h1>
+<h1>沖縄カラム地図</h1>
 
 <div id="tmap"></div>
 
